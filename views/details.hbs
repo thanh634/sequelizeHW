@@ -1,0 +1,99 @@
+<!-- Blog Details Hero Begin -->
+<section class="blog-details-hero set-bg" data-setbg="/img/blog/details/details-hero.jpg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="blog__details__hero__text">
+					<h2>{{blog.title}}</h2>
+					<ul>
+						<li>By {{author.firstName}} {{author.lastName}}</li>
+						<li>January 14, 2019</li>
+						<li>8 Comments</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Blog Details Hero End -->
+
+<!-- Blog Details Section Begin -->
+<section class="blog-details spad">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-5 order-md-1 order-2">
+				<div class="blog__sidebar">
+					<div class="blog__sidebar__search">
+						<form action="/blogs" method="GET">
+							<input
+								type="text"
+								name="keyword"
+								placeholder="Search..."
+								required
+							/>
+							<button type="submit"><span class="icon_search"></span></button>
+						</form>
+					</div>
+					<div class="blog__sidebar__item">
+						<h4>Categories</h4>
+						<ul>
+							<li><a href="/blogs">All</a></li>
+							<li><a href="/blogs?category=Beauty">Beauty (20)</a></li>
+							<li><a href="/blogs?category=Food">Food (5)</a></li>
+							<li><a href="/blogs?category=Life Style">Life Style (9)</a></li>
+							<li><a href="/blogs?category=Travel">Travel (10)</a></li>
+						</ul>
+					</div>
+
+					<div class="blog__sidebar__item">
+						<h4>Search By Tags</h4>
+						<div class="blog__sidebar__item__tags">
+							<a href="/blogs?tag=Trending">Trending</a>
+							<a href="/blogs?tag=Cooking">Cooking</a>
+							<a href="/blogs?tag=Healthy Food">Healthy Food</a>
+							<a href="/blogs?tag=Life Style">Lifestyle</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-7 order-md-1 order-1">
+				<div class="blog__details__text">
+					<img src="{{blog.imagePath}}" alt="" />
+					{{{blog.description}}}
+				</div>
+				<div class="blog__details__content">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="blog__details__author">
+								<div class="blog__details__author__pic">
+									<img src="{{author.imagePath}}" alt="" />
+								</div>
+								<div class="blog__details__author__text">
+									<h6>{{author.firstName}} {{author.lastName}}</h6>
+									<span>Admin</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="blog__details__widget">
+								<ul>
+									<li><span>Categories:</span> Food</li>
+									<li><span>Tags:</span>
+										All, Trending, Cooking, Healthy Food, Life Style</li>
+								</ul>
+								<div class="blog__details__social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Blog Details Section End -->
