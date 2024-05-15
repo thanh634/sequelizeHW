@@ -26,7 +26,7 @@ app.get("/createTables", (req, res) => {
 		res.send("tables created")
 	})
 })
-app.get("/", (req, res) => res.redirect("/blogs"));
+
 app.use("/blogs", require("./routes/blogRouter"));
 
 app.listen(port, () => console.log(`Example app listen on port ${port}`))
