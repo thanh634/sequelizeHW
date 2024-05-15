@@ -1,23 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "anivikia123",
-    "database": "postgres",
-    "host": "localhost",
-    "dialect": "postgres"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "localhost",
+    "username": "postgres_mm4k_user",
+    "password": "ycBxaT8YTDW0a875bFAbrzvQNcr418Ck",
+    "database": "postgres_mm4k",
+    "host": "dpg-cp2kc421hbls738093jg-a",
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "localhost",
+    "username": "postgres_mm4k_user",
+    "password": "ycBxaT8YTDW0a875bFAbrzvQNcr418Ck",
+    "database": "postgres_mm4k",
+    "host": "dpg-cp2kc421hbls738093jg-a",
     "dialect": "postgres"
   }
 }
