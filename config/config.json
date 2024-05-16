@@ -3,14 +3,14 @@
     "username": "postgres_mm4k_user",
     "password": "ycBxaT8YTDW0a875bFAbrzvQNcr418Ck",
     "database": "postgres_mm4k",
-    "host": "dpg-cp2kc421hbls738093jg-a",
+    "host": "dpg-cp2kc421hbls738093jg-a.oregon-postgres.render.com",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres_mm4k_user",
     "password": "ycBxaT8YTDW0a875bFAbrzvQNcr418Ck",
     "database": "postgres_mm4k",
-    "host": "dpg-cp2kc421hbls738093jg-a",
+    "host": "dpg-cp2kc421hbls738093jg-a.oregon-postgres.render.com",
     "dialect": "postgres"
   }
 }
